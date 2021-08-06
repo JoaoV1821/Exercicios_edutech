@@ -28,18 +28,10 @@ if valor.isspace():
     print(f'O valor "{valor}" tem espaços')
 
 if valor.istitle():
-    print(f'O valor "{valor}" tem formataçã de título')
+    print(f'O valor "{valor}" tem formatação de título')
 
 if valor.isascii():
     print(f'O valor "{valor}" está na tabela ASCII')
 
 
 
-funcoes = {
-    valor.isalnum(): 'O valor é alfanumérico',
-    valor.istitle(): 'O valor tem formatação de título'
-}
-
-for k,v in funcoes:
-    if valor:
-        print(k,v)
